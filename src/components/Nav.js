@@ -3,17 +3,17 @@ import React from 'react'
 import { navigation } from '../data'
 
 // import link
-import link, { Link } from 'react-scroll'
+import { Link } from 'react-scroll'
 
 const Nav = () => {
   return (
     <nav>
-      <ul className="flex space-x-8 capitalize text-[15]">
+      <ul className="flex space-x-8 capitalize text-[15px]">
         {navigation.map((item, index) => {
           return (
             <li
               className="text-white 
-            hover:text-accent cursor-pointer"
+              hover:text-accent cursor-pointer"
               key={index}
             >
               <Link
