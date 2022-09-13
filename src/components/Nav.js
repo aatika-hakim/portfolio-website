@@ -24,7 +24,7 @@ const Nav = () => {
                 duration={500}
                 offset={-70}
                 className="transition-all 
-            duration-300"
+                duration-300"
               >
                 {item.name}
               </Link>

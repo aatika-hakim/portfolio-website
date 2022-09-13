@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Logo from '../assets/img/logo.svg';
 import Nav from '../components/Nav';
-// import NavMobile form '../components/NavMobile'
+import NavMobile from '../components/NavMobile';
 
 const Header = () => {
     const [bg, setBg] = useState(false);
@@ -27,6 +27,7 @@ const Header = () => {
         {/* nav */}
         <div className='hidden lg:block'>
             <Nav />
+            <NavMobile />
         </div>
         </div>
     </header>
