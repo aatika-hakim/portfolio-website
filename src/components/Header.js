@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Logo from '../assets/img/logo.svg';
+import Logo from '../assets/img/namelogo.png';
 import Nav from '../components/Nav';
 import NavMobile from '../components/NavMobile';
 import Socials from '../components/Socials';
@@ -22,7 +22,8 @@ const Header = () => {
 
             {/* logo */}
         <a href='#'>
-            <img src={Logo} alt="logo" />
+            <img 
+                src={Logo} alt="logo" />
         </a>
 
         {/* nav */}
