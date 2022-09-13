@@ -7,6 +7,7 @@ const App = () => {
   return (
     <>
       <Header />
+      <Hero />
       <div style={{height: '2000px'}}></div>
     </>
   );
