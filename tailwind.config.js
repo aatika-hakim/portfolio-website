@@ -4,7 +4,7 @@ module.exports = {
     fontFamily: {
       primary: 'Playfair Display',
       body: 'Work Sans',
-    },
+      },
     container: {
       padding: {
         DEFAULT: '1rem',
