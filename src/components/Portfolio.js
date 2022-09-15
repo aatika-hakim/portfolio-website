@@ -1,7 +1,7 @@
 import React from 'react'
 
 // import component
-import Project from './Project'
+import Projects from '../components/Projects';
 
 const Portfolio = () => {
     return (
@@ -28,7 +28,7 @@ const Portfolio = () => {
                         labore culpa nihil
                     </p>
                     <div>
-                        <Project />
+                        <Projects />
                     </div>
                 </div>
             </div>
