@@ -7,7 +7,7 @@ import { projectsData } from '../data';
 import { projectsNav } from '../data';
 
 // import component
-// import Project from './Project';
+import Project from './Project';
 
 const Projects = () => {
   const[item, setItem] = useState({name: 'all'});
@@ -33,18 +33,31 @@ const Projects = () => {
   }
 
   return (
-    // nav
+    /* nav */
     <div>
     <nav className='mb-12 max-w-xl mx-auto'>
       <ul className='flex flex-col md:flex-row
       justify-evenly items-center text-white'>
 
       {projectsNav.map((item, index)=>{
-        return <li key={index}>{item.name}</li>
+        return <li onClick={(e)=>{
+          handleClick(e,index)
+        }}
+        className={`${active === index ? 'active': ''} 
+        cursor-pointer capitalize m-4`}
+        key={index}>
+        {item.name}
+        </li>
         
       })}
       </ul>
     </nav>
+    {/* projects */}
+    <section>
+      {projects.map((item)=>{
+        return <Project item={item} key={item.id} />
+      })}
+    </section>
     </div>
   )
 }
