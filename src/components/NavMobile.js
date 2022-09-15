@@ -21,7 +21,7 @@ const NavMobile = () => {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  // framer motion variants={circleVarients}
+  // framer motion variants
   const circleVariants = {
     hidden:{
       scale: 0,
