@@ -5,21 +5,21 @@ import Image from '../assets/img/about.webp'
 
 const About = () => {
   return (
-    <section className="section bg-secondary">
+    <section id="about" className="section bg-secondary">
       <div className="conainer mx-auto">
         <div className="flex flex-col xl:flex-row gap-24">
           <img
-            className="obect-cover h-full md:mx-auto
-                w-[566px] lg:mx-0 rounded-2xl"
+            className="obJect-cover h-full md:mx-auto 
+                w-[566px] lg:ml-10 rounded-2xl"
             src={Image}
             alt=""
           />
 
           <div
             className="flex flex-col items-center
-                text-center lg:items-start lg:text-left">
+                text-center lg:items-start lg:text-left"
+          >
             <div className="flex flex-col">
-
               <h2
                 className="text-3xl lg:text-4xl
                         font-medium lg:font-extrabold mb-3
@@ -33,7 +33,8 @@ const About = () => {
 
               <p
                 className="mb-4
-                text-accent">
+                text-accent"
+              >
                 Full Stack Developer
               </p>
               <hr className="mb-8 opacity-5" />
@@ -47,9 +48,13 @@ const About = () => {
                 earum dolorum quo consequatur rem nihil
               </p>
             </div>
-            <button className='btn btn-md bg-accent
+            <button
+              className="btn btn-md bg-accent
               hover:bg-accent-hover md:btn-lg
-              transition-all'>Contact me</button>
+              transition-all"
+            >
+              Contact me
+            </button>
           </div>
         </div>
       </div>

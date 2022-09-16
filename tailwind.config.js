@@ -4,7 +4,7 @@ module.exports = {
     fontFamily: {
       primary: 'Playfair Display',
       body: 'Work Sans',
-      },
+          },
     container: {
       padding: {
         DEFAULT: '1rem',
@@ -34,6 +34,7 @@ module.exports = {
           hover: '#925a2b',
         },
         paragraph: '#878e99',
+        lightTheme: '#f0f0f0'
       },
     },
   },
