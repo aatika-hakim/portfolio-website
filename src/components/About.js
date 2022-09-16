@@ -9,15 +9,15 @@ const About = () => {
       <div className="conainer mx-auto">
         <div className="flex flex-col xl:flex-row gap-24">
           <img
-            className="obJect-cover h-full md:mx-auto 
-                w-[566px] lg:ml-10 rounded-2xl"
+            className="object-cover h-full md:mx-auto 
+                w-[566px] lg:ml-20 rounded-2xl"
             src={Image}
             alt=""
           />
 
           <div
             className="flex flex-col items-center
-                text-center lg:items-start lg:text-left"
+                text-center mr-20 ml-20 lg:items-start lg:text-left"
           >
             <div className="flex flex-col">
               <h2

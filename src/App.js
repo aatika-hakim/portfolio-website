@@ -9,7 +9,10 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
 import Services from './components/Services';
-
+import Testimonials from './components/Testimonials';
+import Contacts from './components/Contacts';
+import Footer from './components/Footer';
+import BackToTopBtn from './components/BackToTopBtn';
 const App = () => {
   return (
     <>
@@ -20,6 +23,10 @@ const App = () => {
       <Skills />
       <Portfolio />
       <Services />
+      <Testimonials />
+      <Contacts />
+      <Footer />
+      <BackToTopBtn />
     </>
   );
   };
