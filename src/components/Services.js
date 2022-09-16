@@ -22,6 +22,14 @@ const Services = () => {
                         neque harum velit molestiae dignissimos distinctio dolorum nisi
                         labore culpa nihil
                     </p>
+                    {/* Items grid */}
+                    <div className='grid lg:grid-cols-4 gap-8'>
+                        {/* {
+                            services.map(()=>{
+
+                            })
+                        }  */}
+                    </div>
             </div>
         </div>
     </section>
