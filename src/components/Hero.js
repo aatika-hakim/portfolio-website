@@ -19,11 +19,12 @@ const Hero = () => {
               lg:leading-[1.2] font-bold md:tracking-[-2px]'>I Build & Design Websites</h1>
               <p className='pt-4 pb-8 md:pt-6 md:pb-12
               max-w-[480px] lg:text-left text-lg'>
-                I can design attractive & beautiful Websites.
                 </p>
               <button className='btn btn-md bg-accent
               hover:bg-accent-hover md:btn-lg
-              transition-all'>Work with me</button>
+              transition-all'>
+                <a href='#contact'>Work with me</a>
+              </button>
               
             </div>
             {/* image */}

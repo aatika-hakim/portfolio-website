@@ -35,17 +35,13 @@ const About = () => {
                 className="mb-4
                 text-accent"
               >
-                Full Stack Developer
+                MERN Stack Developer
               </p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-8">
-                I am web developer. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit tempore earum dolorum quo consequatur rem
-                nihilhic ducimus rerum soluta neque harum velit molestiae
-                dignissimos distinctio dolorum nisi labore culpa nihil
-                <br />
-                Lorem ipsum dolor sit amet consectetu adipisicing elit tempore
-                earum dolorum quo consequatur rem nihil
+              I am  a MERN  Stack developer with solid understanding of 
+              font-end and back-end technologies, Restful web services and 
+              Data Base designing.               
               </p>
             </div>
             <button
@@ -53,7 +49,7 @@ const About = () => {
               hover:bg-accent-hover md:btn-lg
               transition-all"
             >
-              Contact me
+            <a href='#contact'>Contact me</a> 
             </button>
           </div>
         </div>

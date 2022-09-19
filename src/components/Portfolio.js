@@ -22,10 +22,7 @@ const Portfolio = () => {
                         My Latest Work
                     </h2>
                     <p className="subtitle">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit tempore
-                        earum dolorum quo consequatur rem nihilhic ducimus rerum soluta
-                        neque harum velit molestiae dignissimos distinctio dolorum nisi
-                        labore culpa nihil
+                    I have Developed web applications and designs using NodeJs, Express, MongoDB, and React.
                     </p>
                     <div>
                         <Projects />

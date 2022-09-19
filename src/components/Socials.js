@@ -12,7 +12,7 @@ const Socials = () => {
             className='flex justify-center items-center text-accent'
             key={index}
           >
-            <a className='text-base' href={item.href}>
+            <a className='text-base' rel="noreferrer" target="_blank" href={item.href}>
               {item.icon}
             </a>
           </li>

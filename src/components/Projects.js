@@ -37,7 +37,7 @@ const Projects = () => {
       <nav className="mb-12 max-w-xl mx-auto">
         <ul
           className="flex flex-col md:flex-row
-      justify-evenly items-center text-white"
+      justify-evenly items-center text-white rounded-2xl"
         >
           {projectsNav.map((item, index) => {
             return (
@@ -58,7 +58,7 @@ const Projects = () => {
       {/* projects */}
       <section
         className="grid lg:grid-cols-3 
-    gap-y-12 lg:gap-x-8 lg:gap-y-8"
+    gap-y-12 lg:gap-x-8 lg:gap-y-8 rounded-2xl"
       >
         {projects.map((item) => {
           return <Project item={item} key={item.id} />
@@ -68,4 +68,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Projects;
