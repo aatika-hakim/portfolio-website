@@ -108,26 +108,28 @@ const Contacts = () => {
                         <input
                             className="input"
                             type="text"
-                            name="name"
+                            required name="name"
+                            minLength="4"
                             placeholder="Enter Your Name"
                         />
                         <input
                             className="input"
                             type="email"
-                            name="email"
+                            required name="email"
                             placeholder="Enter Your Email"
                         />
                         <input
                             type="text"
-                            name="message"
+                            required name="message"
                             className="input"
                             placeholder="Subject"
                         />
                         <textarea
                             className="textarea"
+                            required name= "message"
                             placeholder="Write Your Message"
                         ></textarea>
-                        <button
+                        <button 
                             type="submit"
                             className="btn btn-lg bg-accent hover:bg-accent-hover"
                         >

@@ -10,7 +10,7 @@ const Hero = () => {
           <div className='flex items-center h-full pt-8'>
           {/* Text */}
             <div className='flex-1 flex-col 
-            items-center lg:items-start'>
+            items-center lg:items-center'>
               <p className='text-lg text-accent mb-[22px]'>
                 Hey, I am Aatika
               </p>
@@ -19,19 +19,14 @@ const Hero = () => {
               lg:leading-[1.2] font-bold md:tracking-[-2px]'>I Build & Design Websites</h1>
               <p className='pt-4 pb-8 md:pt-6 md:pb-12
               max-w-[480px] lg:text-left text-lg'>
+
                 </p>
               <button className='btn btn-md bg-accent
               hover:bg-accent-hover md:btn-lg
               transition-all'>
                 <a href='#contact'>Work with me</a>
               </button>
-              
-            </div>
-            {/* image */}
-            <div className='hidden lg:flex flex-1
-            justify-end items-end h-full '>
-              <img src={""} alt='img' />
-            </div>
+              </div>
           </div>
         </div>
     </section>

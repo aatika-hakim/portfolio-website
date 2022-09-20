@@ -33,7 +33,7 @@ const About = () => {
 
               <p
                 className="mb-4
-                text-accent"
+                text-blue-900"
               >
                 MERN Stack Developer
               </p>
@@ -45,7 +45,7 @@ const About = () => {
               </p>
             </div>
             <button
-              className="btn btn-md bg-accent
+              className="btn btn-md bg-blue-900
               hover:bg-accent-hover md:btn-lg
               transition-all"
             >

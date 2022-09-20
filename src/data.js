@@ -107,6 +107,7 @@ export const projectsData = [
     image: Project1,
     name: '',
     href: '',
+    link:'',
     category: 'web design',
   },
   {
@@ -114,12 +115,14 @@ export const projectsData = [
     image: Project2,
     name: '',
     href: '',
+    link:'',
     category: 'web development',
   },
   {
     id: '3',
     image: Project3,
     name: '',
+    link:'',
     category: 'web design',
   },
   {
@@ -127,6 +130,7 @@ export const projectsData = [
     image: Project4,
     name: '',
     href: '',
+    link:'',
     category: 'branding',
   },
   {
@@ -134,6 +138,7 @@ export const projectsData = [
     image: Project5,
     name: '',
     href: 'https://github.com/aatika-hakim/portfolio-website.git',
+    link:'',
     category: 'web development',
   },
   {
@@ -141,6 +146,7 @@ export const projectsData = [
     image: Project6,
     name: '',
     href: '',
+    link:'',
     category: 'web development',
   },
 ];

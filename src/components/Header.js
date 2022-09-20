@@ -34,7 +34,7 @@ const Header = () => {
           <Nav />
         </div>
         {/* Socials */}
-        <div className="hidden lg:block">
+        <div className="hidden lg:block ">
           <Socials />
         </div>
         {/* NavMobile */}
