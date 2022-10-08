@@ -88,7 +88,8 @@ const NavMobile = () => {
         {navigation.map((item, index) => {
           return (
             <li key={index} className='mb-8'>
-              <Link
+              <Link 
+              onClick={()=> setIsOpen(false)}
                 to={item.href}
                 smooth={true}
                 duration={500}
@@ -101,6 +102,7 @@ const NavMobile = () => {
             </li>
           )
         })}
+       
         <Socials />
       </motion.ul>
     </nav>

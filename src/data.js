@@ -71,7 +71,7 @@ export const navigation = [
 export const social = [
   {
     icon: <FiFacebook />,
-    href: 'https://www.facebook.com/',
+    href: 'https://www.facebook.com/aatikah.h.9',
   },
   {
     icon: <FiLinkedin />,
@@ -108,7 +108,6 @@ export const projectsData = [
     image: Project2,
     name: 'Resturant Menu App',
     href: 'https://github.com/aatika-hakim/menuitemapp',
-    link:'',
     category: 'web development',
   },
 
@@ -117,7 +116,6 @@ export const projectsData = [
     image: Project4,
     name: 'Info Keep App',
     href: 'https://github.com/aatika-hakim/keepapp',
-    link:'',
     category: 'Web Development',
   },
   {
@@ -125,7 +123,6 @@ export const projectsData = [
     image: Project5,
     name: 'Portfolio Website',
     href: 'https://github.com/aatika-hakim/portfolio-website.git',
-    link:'',
     category: 'web design',
   },
   {
@@ -133,7 +130,6 @@ export const projectsData = [
     image: Project6,
     name: 'Pokemon Data',
     href:'https://github.com/aatika-hakim/Pokemon.git',
-    link:'',
     category: 'API Integration',
   },
 ];
