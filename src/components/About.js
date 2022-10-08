@@ -33,19 +33,20 @@ const About = () => {
 
               <p
                 className="mb-4
-                text-blue-900"
+                text-accent"
               >
                 MERN Stack Developer
               </p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-8">
-              I am  a MERN  Stack developer with solid understanding of 
-              font-end and back-end technologies, Restful web services and 
-              Data Base designing.               
+              I am  a MERN Stack Web Developer with solid understanding of 
+              front-end and back-end technologies, Restful web services and 
+              Data Base designing.I design attractive and responsive websites.
+
               </p>
             </div>
             <button
-              className="btn btn-md bg-blue-900
+              className="btn btn-md bg-accent
               hover:bg-accent-hover md:btn-lg
               transition-all"
             >

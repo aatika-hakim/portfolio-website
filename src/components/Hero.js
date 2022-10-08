@@ -11,8 +11,11 @@ const Hero = () => {
           {/* Text */}
             <div className='flex-1 flex-col 
             items-center lg:items-center'>
+              <p className='text-lg text-accent mb-[10px]'>
+                Hey, I am Aatika 
+              </p>
               <p className='text-lg text-accent mb-[22px]'>
-                Hey, I am Aatika
+                I am a MERN Stack Web Developer
               </p>
               <h1 className='text-4xl leading-[44px]
               md:text-5xl md:leading-tight lg:text-7xl

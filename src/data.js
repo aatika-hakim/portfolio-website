@@ -34,10 +34,10 @@ import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/expjs.png';
 
-// testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+// // testimonial images
+// import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
+// import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
+// import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 
 // navigation
 export const navigation = [
@@ -102,52 +102,39 @@ export const brands = [
 
 // projects
 export const projectsData = [
+ 
   {
     id: '1',
-    image: Project1,
-    name: '',
-    href: '',
-    link:'',
-    category: 'web design',
-  },
-  {
-    id: '2',
     image: Project2,
-    name: '',
-    href: '',
+    name: 'Resturant Menu App',
+    href: 'https://github.com/aatika-hakim/menuitemapp',
     link:'',
     category: 'web development',
   },
+
+  {
+    id: '2',
+    image: Project4,
+    name: 'Info Keep App',
+    href: 'https://github.com/aatika-hakim/keepapp',
+    link:'',
+    category: 'Web Development',
+  },
   {
     id: '3',
-    image: Project3,
-    name: '',
+    image: Project5,
+    name: 'Portfolio Website',
+    href: 'https://github.com/aatika-hakim/portfolio-website.git',
     link:'',
     category: 'web design',
   },
   {
     id: '4',
-    image: Project4,
-    name: '',
-    href: '',
-    link:'',
-    category: 'branding',
-  },
-  {
-    id: '5',
-    image: Project5,
-    name: '',
-    href: 'https://github.com/aatika-hakim/portfolio-website.git',
-    link:'',
-    category: 'web development',
-  },
-  {
-    id: '6',
     image: Project6,
-    name: '',
-    href: '',
+    name: 'Pokemon Data',
+    href:'https://github.com/aatika-hakim/Pokemon.git',
     link:'',
-    category: 'web development',
+    category: 'API Integration',
   },
 ];
 
@@ -163,7 +150,7 @@ export const projectsNav = [
     name: 'web development',
   },
   {
-    name: 'branding',
+    name:'API Integration',
   },
 ];
 
@@ -223,30 +210,30 @@ export const services = [
   },
 ];
 
-// testimonials
-export const testimonials = [
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design',
-  },
-  {
-    authorImg: TestiImage2,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Jane',
-    authorPosition: 'Head of Design',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Victoria',
-    authorPosition: 'Head of Design',
-  },
-];
+// // testimonials
+// export const testimonials = [
+//   {
+//     authorImg: TestiImage1,
+//     authorText:
+//       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+//     authorName: 'Olivia Doe',
+//     authorPosition: 'Head of Design',
+//   },
+//   {
+//     authorImg: TestiImage2,
+//     authorText:
+//       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+//     authorName: 'Jane',
+//     authorPosition: 'Head of Design',
+//   },
+//   {
+//     authorImg: TestiImage3,
+//     authorText:
+//       'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+//     authorName: 'Victoria',
+//     authorPosition: 'Head of Design',
+//   },
+// ];
 
 // contact
 export const contact = [

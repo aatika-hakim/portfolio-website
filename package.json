@@ -1,4 +1,5 @@
 {
+  "homepage": "https://aatika-hakim.github.io/portfolio-website",
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
@@ -14,13 +15,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aatika-hakim/portfolio-website.git"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +43,7 @@
     "@heroicons/react": "^1.0.6",
     "autoprefixer": "^10.4.2",
     "framer-motion": "^6.2.8",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.8",
     "react-icons": "^4.4.0",
     "react-scroll": "^1.8.6",
