@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 // import link
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { animateScroll as scroll } from 'react-scroll';
 // import icon
 import { ChevronUpIcon } from '@heroicons/react/outline';
 
@@ -15,7 +15,6 @@ const BackTopBtn = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
-  {
     return (
       show && (
         <button
@@ -27,6 +26,5 @@ const BackTopBtn = () => {
       )
     );
   }
-};
 
 export default BackTopBtn;
