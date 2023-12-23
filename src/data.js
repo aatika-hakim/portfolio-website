@@ -34,11 +34,6 @@ import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/expjs.png';
 
-// testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
-
 // navigation
 export const navigation = [
   {
@@ -87,15 +82,15 @@ export const social = [
 export const brands = [
   {
     img: FreelancerBrandIcon,
-    href: '',
+    url: '',
   },
   {
     img: UpworkBrandIcon,
-    href: '',
+    url: 'https://www.upwork.com/freelancers/~01a456211c28a88335',
   },
   {
     img: FiverBrandIcon,
-    href: '',
+    url: 'https://www.fiverr.com/atika_dev?public_mode=true',
   },
 
 ];
@@ -220,31 +215,6 @@ export const services = [
     name: 'Database',
     description:
       '',
-  },
-];
-
-// testimonials
-export const testimonials = [
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design',
-  },
-  {
-    authorImg: TestiImage2,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Jane',
-    authorPosition: 'Head of Design',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Victoria',
-    authorPosition: 'Head of Design',
   },
 ];
 
