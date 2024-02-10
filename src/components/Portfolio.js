@@ -7,8 +7,7 @@ const Portfolio = () => {
     return (
         <section
             id="portfolio"
-            className="section
-    bg-tertiary min-h-[1400px]"
+            className="bg-gray-800 section h-fit"
         >
             <div className="container mx-auto">
                 <div className="flex flex-col items-center text-center">

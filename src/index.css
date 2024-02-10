@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-body text-paragraph leading-6 bg-gray-200;
+    @apply leading-6 bg-gray-200 font-body text-paragraph;
   }
   h1,
   h2,
@@ -18,19 +18,19 @@
     @apply py-12 lg:py-32;
   }
   .section-title {
-    @apply text-3xl lg:text-4xl font-medium lg:font-extrabold mb-5;
+    @apply mb-5 text-3xl font-medium lg:text-4xl lg:font-extrabold;
   }
   .subtitle {
     @apply text-base text-paragraph mb-16 lg:mb-24 max-w-[520px];
   }
   .btn {
-    @apply py-4 px-7 font-medium text-white flex items-center justify-center rounded-sm hover:bg-accent-hover transition-all;
+    @apply flex items-center justify-center py-4 font-medium text-white transition-all rounded-sm px-7 hover:bg-accent-hover;
   }
   .btn-lg {
-    @apply h-[54px];
+    @apply h-[54px] bg-accent;
   }
   .btn-md {
-    @apply h-[48px];
+    @apply h-[48px] bg-accent ;
   }
   .input {
     @apply bg-secondary text-paragraph h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-accent;

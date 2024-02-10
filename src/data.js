@@ -17,8 +17,8 @@ import UpworkBrandIcon from './assets/img/brands/upwork.png';
 import FiverBrandIcon from './assets/img/brands/fiverr.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
+import Project1 from './assets/img/projects/';
+import Project2 from './assets/img/projects/';
 import Project3 from './assets/img/projects/p3.webp';
 import Project4 from './assets/img/projects/p4.webp';
 import Project5 from './assets/img/projects/p5.webp';
@@ -29,10 +29,9 @@ import SkillImg1 from './assets/img/skills/html5.png';
 import SkillImg2 from './assets/img/skills/css3.png';
 import SkillImg3 from './assets/img/skills/js.png';
 import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/mongodb.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/expjs.png';
+import SkillImg5 from './assets/img/skills/git.png';
+import SkillImg6 from './assets/img/skills/nextjs.png';
+import SkillImg7 from './assets/img/skills/tslogo.png';
 
 // navigation
 export const navigation = [
@@ -126,7 +125,7 @@ export const projectsData = [
     name: '',
     href: '',
     link:'',
-    category: 'branding',
+    category: '',
   },
   {
     id: '5',
@@ -156,10 +155,7 @@ export const projectsNav = [
   },
   {
     name: 'web development',
-  },
-  {
-    name: 'branding',
-  },
+  }
 ];
 
 // skill
@@ -184,9 +180,6 @@ export const skills = [
   },
   {
     image: SkillImg7,
-  },
-  {
-    image: SkillImg8,
   },
 ];
 

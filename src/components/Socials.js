@@ -9,10 +9,10 @@ const Socials = () => {
       {social.map((item, index) => {
         return (
           <li
-            className='flex justify-center items-center text-white'
+            className='flex items-center justify-center w-10 h-10 p-3 text-xl text-center text-white bg-accent rounded-sm hover:bg-gray-700'
             key={index}
           >
-            <a className='text-base' rel="noreferrer" target="_blank" href={item.href}>
+            <a className='text-base' rel="noreferrer noopener" target="_blank" href={item.href}>
               {item.icon}
             </a>
           </li>

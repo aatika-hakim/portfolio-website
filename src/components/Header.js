@@ -25,7 +25,7 @@ const Header = () => {
         items-center justify-between"
       >
         {/* logo */}
-        <a href="#">
+        <a href="/">
           {bg ? <img src={Logo} alt="logo" /> : <img src={Logo2} alt="logo" />}
         </a>
 

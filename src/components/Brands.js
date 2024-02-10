@@ -12,7 +12,7 @@ const Brands = () => {
         {brands.map((brand, index) => (
           <div key={index} onClick={() => handleClick(brand.url)}>
             <a href={brand.url} target="_blank" rel="noopener noreferrer">
-              <img src={brand.img} alt={brand.name} />
+              <img src={brand.img} alt={brand.name} className=' hover:bg-accent'/>
             </a>
           </div>
         ))}

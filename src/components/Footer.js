@@ -8,14 +8,14 @@ import Logo from "../assets/img/namelogo-gr-bg.png";
 
 const Footer = () => {
     return (
-        <footer className='bg-tertiary py-12'>
+        <footer className='py-8 bg-tertiary'>
             <div className='container mx-auto'>
-                <div className='flex flex-col lg:flex-row space-y-6 lg:space-y-0 items-center justify-between'>
-                    <div className='flex space-x-6 items-center justify-center'>
+                <div className='flex flex-col items-center justify-between space-y-6 lg:flex-row lg:space-y-0'>
+                    <div className='flex items-center justify-center space-x-6'>
                         {social.map((item, index) => {
                             const { href, icon } = item;
                             return (
-                                <a className='text-accent text-base' href={href} key={index}>
+                                <a className='w-10 h-10 p-3 text-center text-white bg-accent rounded-sm hover:bg-black' href={href} key={index}>
                                     {icon}
                                 </a>
                             );
@@ -25,7 +25,7 @@ const Footer = () => {
                         <img src={Logo} alt='' />
                     </div>
                     <p className='text-paragraph opacity-80 text-[15px]'>
-                        &copy; 2022 Aatika Hakim. All rights reserved.
+                        &copy; 2024 Aatika Hakim. All rights reserved.
                     </p>
                 </div>
             </div>
