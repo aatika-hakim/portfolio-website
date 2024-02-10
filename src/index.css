@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  width: fit-content
+}
+
 @layer base {
   body {
     @apply leading-6 bg-gray-200 font-body text-paragraph;

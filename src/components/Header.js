@@ -21,8 +21,7 @@ const Header = () => {
     fixed top-0 text-white z-10 transition-all duration-300`}
     >
       <div
-        className="container mx-auto h-full flex
-        items-center justify-between"
+        className="container flex items-center justify-between h-full mx-auto"
       >
         {/* logo */}
         <a href="/">

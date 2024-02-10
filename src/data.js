@@ -17,8 +17,8 @@ import UpworkBrandIcon from './assets/img/brands/upwork.png';
 import FiverBrandIcon from './assets/img/brands/fiverr.png';
 
 // projects images
-import Project1 from './assets/img/projects/';
-import Project2 from './assets/img/projects/';
+import Project1 from './assets/img/projects/p3.webp';
+import Project2 from './assets/img/projects/p3.webp';
 import Project3 from './assets/img/projects/p3.webp';
 import Project4 from './assets/img/projects/p4.webp';
 import Project5 from './assets/img/projects/p5.webp';

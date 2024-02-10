@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <motion.section
       id='home'
-      className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
+      className='lg:h-[85vh] flex items-center justify-center text-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
       style={{ backgroundImage: 'url("")' }}
     >
       <div className='container h-full mx-auto'>
@@ -27,22 +27,23 @@ const Hero = () => {
           className='flex items-center h-full pt-8'
         >
           {/* Text */}
-          <div className='flex-col items-center flex-1 lg:items-center'>
+          <div className='flex-col items-center lg:items-center'>
             <motion.p className='text-2xl text-accent mb-[22px]' variants={fadeIn}>
               Hello, I am Aatika
             </motion.p>
             <motion.h1
-              className='text-3xl leading-[44px] md:text-5xl md:leading-[1.2] lg:text-5xl lg:leading-[1.5] font-bold md:tracking-[1px] max-w-3xl'
+              className='text-3xl leading-[44px] md:text-5xl md:leading-[1.2] lg:text-5xl lg:leading-[1.5] font-bold md:tracking-[1px]'
               variants={fadeInUp}
             >
               I Build Dynamic and engaging Websites
             </motion.h1>
             <motion.p
-              className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] lg:text-left text-lg'
+              className='pt-4 pb-8 text-lg md:pt-6 md:pb-12 lg:text-center'
               variants={fadeInUp}
             >
               Welcome to my corner of the web, where creativity meets functionality. With a passion for coding and a knack for problem-solving, I bring ideas to life through dynamic and engaging websites. Let's collaborate and turn your vision into reality.
             </motion.p>
+            <button className='items-center justify-center text-center'>
             <motion.button
               className='transition-all btn btn-md bg-accent hover:bg-accent-hover md:btn-lg'
               whileHover={{ scale: 1.1 }}
@@ -50,6 +51,7 @@ const Hero = () => {
             >
               <a href='#contact'>Work with me</a>
             </motion.button>
+            </button>
           </div>
         </motion.div>
       </div>
