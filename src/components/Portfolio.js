@@ -7,7 +7,7 @@ const Portfolio = () => {
     return (
         <section
             id="portfolio"
-            className="bg-gray-800 section h-fit"
+            className="bg-black section h-fit"
         >
             <div className="container mx-auto">
                 <div className="flex flex-col items-center text-center">
@@ -21,7 +21,7 @@ const Portfolio = () => {
                         My Latest Work
                     </h2>
                     <p className="subtitle">
-                    I have Developed web applications and designs using NodeJs, Express, MongoDB, and React.
+                    I have Developed web applications and designs using JavaScript, TypeScript, React, Next.js, Tailwind CSS.
                     </p>
                     <div>
                         <Projects />

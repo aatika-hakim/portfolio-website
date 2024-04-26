@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Playfair Display',
-      body: 'Work Sans',
+      body: 'system-ui, -apple-system, BlinkMacSystemFont',
           },
     container: {
       padding: {
