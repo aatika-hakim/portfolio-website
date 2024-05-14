@@ -1,12 +1,12 @@
 import React from 'react'
 
 // import image
-import Image from '../assets/img/about.webp'
+import Image from '../assets/img/about.png'
 
 const About = () => {
   return (
     <section id="about" className="section bg-secondary">
-      <div className="mx-auto conainer">
+      <div className="mx-auto lg:px-56 xl:px-56">
         <div className="flex flex-col gap-10 xl:flex-row">
           <img
             className="object-cover h-[400px] md:mx-auto 
@@ -27,7 +27,7 @@ const About = () => {
                         before:-top-[2rem] before:hidden
                         before:lg:block"
               >
-                <h2 className='lg:px-24'>About Me</h2>
+                <h2 className=''>About Me</h2>
               </h2>
 
               <p

@@ -17,12 +17,12 @@ import UpworkBrandIcon from './assets/img/brands/upwork.png';
 import FiverBrandIcon from './assets/img/brands/fiverr.png';
 
 // projects images
-import Project1 from './assets/img/projects/p3.webp';
-import Project2 from './assets/img/projects/p3.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/P3.png';
+import Project2 from './assets/img/projects/P3.png';
+import Project3 from './assets/img/projects/P3.png';
+import Project4 from './assets/img/projects/p4.png';
+import Project5 from './assets/img/projects/p4.png';
+import Project6 from './assets/img/projects/p4.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -100,8 +100,8 @@ export const projectsData = [
     id: '1',
     image: Project1,
     name: '',
-    href: '',
-    link:'',
+    href: 'https://hackathon-1-psi.vercel.app/',
+    link:'https://hackathon-1-psi.vercel.app/',
     category: 'web design',
   },
   {
